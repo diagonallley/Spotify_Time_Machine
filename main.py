@@ -52,7 +52,7 @@ scope = "playlist-modify-private"
 
 def authenticate_login(scope="user-top-read"):
     sp = spotipy.Spotify(auth_manager=SpotifyOAuth(client_id=SPOTIFY_CLIENT_ID,
-                         client_secret=SPOTIFY_CLIENT_SECRET, redirect_uri="https://github.com/diagonallley", scope=scope))
+                         client_secret=SPOTIFY_CLIENT_SECRET, redirect_uri="", scope=scope))
     return sp
 
 
