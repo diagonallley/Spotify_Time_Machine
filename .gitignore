@@ -1,0 +1,8 @@
+# ignore ALL .log files
+*.log
+#Config files
+*.env
+*.cache
+
+# ignore ALL files in ANY directory named temp
+temp/
